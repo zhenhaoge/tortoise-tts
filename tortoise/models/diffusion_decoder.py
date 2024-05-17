@@ -6,6 +6,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch import autocast
+#from torch.cuda.amp import autocast
 
 from tortoise.models.arch_util import normalization, AttentionBlock
 
